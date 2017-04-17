@@ -23,8 +23,21 @@ twitter_username:
 github_username:  charlesechap
 timezone: Europe/Zurich
 prose:
-  rooturl: '_posts'
+  rooturl: ''
   siteurl: 'http://charlesechap.github.io/site/'
+
+collections:
+  expositions:
+    output: true
+    permalink: /expos/:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "expositions" # a collection in your site, in plural form
+    values:
+      layout: "expos"
 
 # Build settings
 markdown: kramdown

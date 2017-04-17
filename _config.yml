@@ -39,6 +39,13 @@ defaults:
     values:
       layout: "expo"
 
+flickr:
+  cache_dir:       "./_cache/flickr"
+  api_key:          edfac20f6422216a30ce56359714910a
+  shared_secret:    e5e940256c041580
+  access_token:     72157679423020804-987ee22dfd765f2a
+  access_secret:    d1354eeafabb3566
+  
 # Build settings
 markdown: kramdown
 theme: minima

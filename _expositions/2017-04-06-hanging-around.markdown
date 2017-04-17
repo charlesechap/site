@@ -1,8 +1,8 @@
 ---
-#layout: post
+layout: post
 title:  "Hanging around"
 date:   2017-04-06 09:58:32 +0200
-categories: peintures
+categories: peinture
 artist1:
 artist2:
 date1:

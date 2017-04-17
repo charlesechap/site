@@ -23,8 +23,15 @@ twitter_username:
 github_username:  charlesechap
 timezone: Europe/Zurich
 prose:
-  rooturl: 'posts/'
+  rooturl: ''
   siteurl: 'http://charlesechap.github.io/site/'
+  metadata:
+  _expositions:
+    - name: "layout"
+      field:
+        element: "hidden"
+        value: "expo"
+
 
 collections:
   expositions:

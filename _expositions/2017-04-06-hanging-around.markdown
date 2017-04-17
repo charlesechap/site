@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: expo
 title: Hanging around
 date: '2017-04-06 09:58:32 +0200'
 categories: expo

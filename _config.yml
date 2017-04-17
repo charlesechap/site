@@ -32,3 +32,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 port: 8080
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://charlesechap.github.io/site/'

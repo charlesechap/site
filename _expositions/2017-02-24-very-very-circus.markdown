@@ -8,9 +8,9 @@ artist2: Michael Schmid
 date1: 2017-02-24
 date2:
 flickr:
-- http://www.flickr.com/photos/himynameisjonas/6167152072
-- http://www.flickr.com/photos/himynameisjonas/6167152448
-- http://www.flickr.com/photos/himynameisjonas/6167153574
+- https://www.flickr.com/photos/ml0v8a/33714771890
+- https://www.flickr.com/photos/ml0v8a/33942574572
+- https://www.flickr.com/photos/ml0v8a/33287881253
 ---
 
 Tunnel Tunnel est heureux de présenter une exposition personnelle de Jean-Christophe Huguenin:

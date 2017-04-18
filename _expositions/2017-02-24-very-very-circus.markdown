@@ -2,15 +2,17 @@
 layout: expo
 title:  "Very very circus"
 date:   2017-02-24 09:58:32 +0200
-categories: peinture musique
+categories:
+ - peinture
+ - musique
 artist1: Jean-Christophe Huguenin
 artist2: Michael Schmid
 date1: 2017-02-24 19:00:00 +0100
 date2:
 flickr:
-- https://www.flickr.com/photos/ml0v8a/33714771890
-- https://www.flickr.com/photos/ml0v8a/33942574572
-- https://www.flickr.com/photos/ml0v8a/33287881253
+ - https://www.flickr.com/photos/ml0v8a/33714771890
+ - https://www.flickr.com/photos/ml0v8a/33942574572
+ - https://www.flickr.com/photos/ml0v8a/33287881253
 ---
 
 Tunnel Tunnel est heureux de présenter une exposition personnelle de Jean-Christophe Huguenin:

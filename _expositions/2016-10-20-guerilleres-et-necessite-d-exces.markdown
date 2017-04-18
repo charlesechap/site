@@ -2,15 +2,16 @@
 layout: expo
 title:  "Guérillères et Nécessité d’Excès"
 date:   2016-10-20 20:00:00 +0100
-categories: performance
+categories:
+ - performance
 artist1: Clara Saito
 artist2: Les Indociles
 date1: 2016-10-20 20:00:00 +0100
 date2: 2016-11-10 20:00:00 +0100
 flickr:
-- https://www.flickr.com/photos/ml0v8a/33714771890
-- https://www.flickr.com/photos/ml0v8a/33942574572
-- https://www.flickr.com/photos/ml0v8a/33287881253
+ - https://www.flickr.com/photos/ml0v8a/33714771890
+ - https://www.flickr.com/photos/ml0v8a/33942574572
+ - https://www.flickr.com/photos/ml0v8a/33287881253
 ---
 
 Sophie Ballmer, Tiphanie Blanc, Olivia Fahmy, Anne Sylvie Henchoz et Guillaume Pilet sont heureux de vous inviter au premier vernissage de la saison: “Guérillères et nécessité d’excès”, qui se décline en 2 événements:

@@ -2,15 +2,17 @@
 layout: expo
 title:  "Hanging around"
 date:   2017-04-06 09:58:32 +0200
-categories: peinture cat2
+categories:
+ - peinture
+ - catégorie
 artist1: Caroline Bachmann
 artist2: Zara Idelson
 date1: 2017-04-06
 date2:
 flickr:
-- http://www.flickr.com/photos/himynameisjonas/6167152072
-- http://www.flickr.com/photos/himynameisjonas/6167152448
-- http://www.flickr.com/photos/himynameisjonas/6167153574
+ - http://www.flickr.com/photos/himynameisjonas/6167152072
+ - http://www.flickr.com/photos/himynameisjonas/6167152448
+ - http://www.flickr.com/photos/himynameisjonas/6167153574
 ---
 
 Tunnel Tunnel est ravi de vous présenter une exposition de peintures de Caroline Bachmann et Zara Idelson:

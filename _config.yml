@@ -73,3 +73,25 @@ prose:
       field:
         element: "hidden"
         value: "expo"
+    -name: "title"
+      field:
+        element: "text"
+        label: "Titre de l'exposition"
+    -name: "artist1"
+      field:
+        element: "text"
+        label: "Artiste 1"
+    -name: "artist2"
+      field:
+        element: "text"
+        label: "Artiste 2"
+    -name: "date1"
+      field:
+        element: "text"
+        label: "Date 1"
+        value: "CURRENT_DATETIME"
+    -name: "date2"
+      field:
+        element: "text"
+        label: "Date 2"
+        value: "CURRENT_DATETIME"

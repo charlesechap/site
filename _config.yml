@@ -73,10 +73,6 @@ prose:
       field:
         element: "hidden"
         value: "expo"
-    - name: "title"
-      field:
-        element: "text"
-        label: "Titre de l'exposition"
     - name: "artist1"
       field:
         element: "text"

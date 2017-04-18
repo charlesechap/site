@@ -5,7 +5,7 @@ date:   2017-02-24 09:58:32 +0200
 categories: peinture musique
 artist1: Jean-Christophe Huguenin
 artist2: Michael Schmid
-date1: 2017-02-24
+date1: 2017-02-24 19:00:00 +0100
 date2:
 flickr:
 - https://www.flickr.com/photos/ml0v8a/33714771890

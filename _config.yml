@@ -22,16 +22,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  charlesechap
 timezone: Europe/Zurich
-prose:
-  rooturl: ''
-  siteurl: 'http://charlesechap.github.io/site/'
-  metadata:
-  _expositions:
-    - name: "layout"
-      field:
-        element: "hidden"
-        value: "expo"
-
 
 collections:
   expositions:
@@ -66,12 +56,21 @@ theme: minima
 gems:
   - jekyll-feed
   - fleakr
-  - flickraw
+  # - flickraw
   - flickr
-  - indii-jekyll-flickr
-
-
+  # - indii-jekyll-flickr
 exclude:
   - Gemfile
   - Gemfile.lock
 port: 8080
+
+# Prose settings
+prose:
+  rooturl: ''
+  siteurl: 'http://charlesechap.github.io/site/'
+  metadata:
+  _expositions:
+    - name: "layout"
+      field:
+        element: "hidden"
+        value: "expo"

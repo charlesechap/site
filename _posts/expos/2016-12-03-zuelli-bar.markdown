@@ -3,8 +3,8 @@ layout: expo
 title:  "Le Zülli Bar"
 date:   2016-12-02 18:00:00 +0100
 tags: musique cocktails
-artist1: Renato Zülli
-artist2: Les Urbaines
+artist1: Renato Zülli &amp; Les Urbaines
+artist2:
 date1: 2016-12-02 18:00:00 +0100
 date2: 2016-12-03 18:00:00 +0100
 flickr:

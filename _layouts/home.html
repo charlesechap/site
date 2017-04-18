@@ -4,21 +4,41 @@ layout: default
 
 <div class="home">
 
-  <!-- <h1 class="page-heading">Posts</h1> -->
-
   {{ content }}
 
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    {% for p in site.posts %}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
+    <article class="post">
+
+        <header class="post-header">
+          <p class="post-meta">
+            <!-- date 1 -->
+            {% if p.date1 %}
+              <h2>{{ p.date1 | date: "%d.%m.%y"}}</h2>
+            {% endif %}
+            <!-- artist 1 -->
+            {% if p.artist1 %}
+              <h2>{{ p.artist1 }}</h2>
+            {% endif %}
+            <!-- date 2 -->
+            {% if p.date2 %}
+              <h2>{{ p.date2 | date: "%d.%m.%y"}}</h2>
+            {% endif %}
+            <!-- artist 1 -->
+            {% if p.artist2 %}
+              <h2>{{ p.artist2 }}</h2>
+            {% endif %}
+            <!-- title -->
+            <h2>{{ p.title | escape }}</h2>
+
+          </p>
+        </header>
+        <div class="post-content" itemprop="articleBody">
+          {{ p.content }}
+        </div>
+
+    </article>
     {% endfor %}
   </ul>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
 </div>

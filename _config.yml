@@ -37,7 +37,7 @@ defaults:
       layout: "post"
   -
     scope:
-      path: "expo"
+      path: "expos"
       type: "posts" # a collection in your site, in plural form
     values:
       layout: "expo"
@@ -68,7 +68,7 @@ prose:
   rooturl: '_posts'
   siteurl: 'http://charlesechap.github.io/site/'
   metadata:
-  _expositions:
+    expos:
     - name: "layout"
       field:
         element: "hidden"

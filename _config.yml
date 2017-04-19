@@ -30,12 +30,21 @@ defaults:
     values:
       layout: "expo"
 
+galleria:
+ theme: '//galleria/themes/fullscreen/galleria.fullscreen.js'
+ user_id: '124658802@N03'
+
+# flickr:
+#   cache_dir:       "./_cache/flickr"
+#   api_key:          edfac20f6422216a30ce56359714910a
+#   shared_secret:    e5e940256c041580
+#   access_token:     72157679423020804-987ee22dfd765f2a
+#   access_secret:    d1354eeafabb3566
+
 flickr:
-  cache_dir:       "./_cache/flickr"
-  api_key:          edfac20f6422216a30ce56359714910a
-  shared_secret:    e5e940256c041580
-  access_token:     72157679423020804-987ee22dfd765f2a
-  access_secret:    d1354eeafabb3566
+  screen_name: ml0v8a
+  api_key: edfac20f6422216a30ce56359714910a
+  api_secret: e5e940256c041580
 
 # Build settings
 markdown: kramdown

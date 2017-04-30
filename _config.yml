@@ -3,11 +3,11 @@
 title: TUNNEL TUNNEL
 email: ton-mail@tunneltunnel.ch
 description:
-  Tunnel Tunnel est un espace d’art indépendant situé au centre de Lausanne. La programmation est assurée par un collectif constitué de Sophie Ballmer, Tiphanie Blanc, Olivia Fahmy, Anne-Sylvie Henchoz et Guillaume Pilet.
+  Tunnel Tunnel est un espace d’art indépendant situé au centre de Lausanne.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
-github_username: charlesechap
+github_username: tunneltunnel
 timezone: Europe/Zurich
 language_default: 'fr'
 
@@ -30,9 +30,9 @@ defaults:
     values:
       layout: "expo"
 
-galleria:
- theme: '//galleria/themes/fullscreen/galleria.fullscreen.js'
- user_id: '124658802@N03'
+# galleria:
+#  theme: '//galleria/themes/fullscreen/galleria.fullscreen.js'
+#  user_id: '124658802@N03'
 
 # flickr:
 #   cache_dir:       "./_cache/flickr"
@@ -41,10 +41,18 @@ galleria:
 #   access_token:     72157679423020804-987ee22dfd765f2a
 #   access_secret:    d1354eeafabb3566
 
-flickr:
-  screen_name: ml0v8a
-  api_key: edfac20f6422216a30ce56359714910a
-  api_secret: e5e940256c041580
+# flickr:
+#   screen_name: ml0v8a
+#   api_key: edfac20f6422216a30ce56359714910a
+#   api_secret: e5e940256c041580
+
+# flickr:
+#   api_key: 'edfac20f6422216a30ce56359714910a'
+#   secret: 'edfac20f6422216a30ce56359714910a'
+#   user_id: '124658802@N03'
+#   thumb_size: 'n'
+#   large_size: 'b'
+#   dir: 'photos'
 
 # Build settings
 markdown: kramdown
@@ -52,8 +60,10 @@ theme: minima
 gems:
  - jekyll-feed
  - fleakr
- # - flickraw
+ - flickraw
  - flickr
+
+
  # - indii-jekyll-flickr
 exclude:
  - Gemfile

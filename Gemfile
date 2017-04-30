@@ -20,10 +20,10 @@ gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "jekyll-feed", "~> 0.6"
-   gem 'RedCloth'
-   gem 'jekyll'
-   gem 'fleakr'
+  gem 'flickraw'
+  gem 'builder', '> 2.0.0'
+  gem 'persistent_memoize'
+  gem 'jekyll-gh-pages'
  end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
